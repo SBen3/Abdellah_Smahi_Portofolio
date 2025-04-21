@@ -3,7 +3,7 @@ import RevealScroll from "../components/revealScroll";
 import Lottie from "lottie-react";
 import dots from "./../assets/json/dots.json";
 import bg from "./../assets/json/wave.json";
-import a from "src/assets/images/a.png";
+import a from "./../assets/images/a.png";
 
 function Home() {
   return (

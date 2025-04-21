@@ -1,8 +1,8 @@
 import React from "react";
 import { MoveRight } from "lucide-react";
 import RevealScroll from "../components/revealScroll";
-import a from "src/assets/images/sonia-fotograf-sz7NTRGFDHA-unsplash (1).jpg";
-import b from "src/assets/images/1—Pngtree—admin_4960855.png";
+import a from "./../assets/images/sonia-fotograf-sz7NTRGFDHA-unsplash (1).jpg";
+import b from "./../assets/images/1—Pngtree—admin_4960855.png";
 
 function Projects() {
   return (
