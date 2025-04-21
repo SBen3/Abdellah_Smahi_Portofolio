@@ -26,17 +26,17 @@ function Home() {
           </p>
           <div className="flex justify-around w-[50%] max-md:w-[80%]">
             <button className="max-sm:text-[12px] px-5 py-3 border-indigo-700 border-2 bg-gradient-to-r from-indigo-700 to-violet-700 hover:opacity-70 hover:-translate-y-1 rounded-md duration-300 cursor-pointer">
-              View Project
+              <a href="#projects">View Project</a>
             </button>
             <Lottie animationData={dots} className="max-sm:w-[20%]" />
             <button className="max-sm:text-[12px] px-5 py-3 border-indigo-700 border-2 hover:opacity-70 hover:-translate-y-1 duration-300 rounded-md cursor-pointer">
-              Contact Me
+              <a href="#contact">Contact Me</a>
             </button>
           </div>
         </div>
         <div className="w-[18%]">
           <img
-            src="../../src/assets/images/a.png"
+            src="../../src/assets/profile.png"
             className="border-1 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
             alt=""
           />

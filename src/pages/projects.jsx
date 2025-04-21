@@ -28,7 +28,7 @@ function Projects() {
                 <div className="flex self-center w-[300px] h-[180px] text-center rounded-md">
                   <img
                     className="rounded-md hover:scale-105 duration-300 cursor-pointer"
-                    src="../../src/assets/images/sonia-fotograf-sz7NTRGFDHA-unsplash (1).jpg"
+                    src="../../src/assets/flower.jpg"
                     alt=""
                   />
                 </div>
@@ -103,7 +103,7 @@ function Projects() {
                 <div className="flex self-center text-center rounded-md w-[300px] h-[180px]">
                   <img
                     className="rounded-md w-[100%] h-[100%] hover:scale-105 duration-300 cursor-pointer"
-                    src= "../../src/assets/images/1—Pngtree—admin_4960855.png"
+                    src= "../../src/assets/admin.png"
                     alt=""
                   />
                 </div>
