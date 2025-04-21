@@ -19,7 +19,7 @@ function Navbar() {
       <div className="max-sm:visible invisible">
         {open ? (
           <div className="w-[100%] min-h-screen absolute top-0 right-0 bg-neutral-950/95 rounded-b-md">
-            <ul className="flex flex-col items-center py-25 gap-15">
+            <ul className="flex flex-col items-center py-40 gap-15">
               <li className="hover:text-gray-400 duration-300 cursor-pointer w-fit">
               <a href="#home" onClick={()=>{setOpen((prev)=>!prev)}}>HOME</a>
               </li>

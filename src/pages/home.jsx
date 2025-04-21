@@ -3,7 +3,6 @@ import RevealScroll from "../components/revealScroll";
 import Lottie from "lottie-react";
 import dots from "./../assets/json/dots.json";
 import bg from "./../assets/json/wave.json";
-import a from "./../assets/images/a.png";
 
 function Home() {
   return (
@@ -26,18 +25,18 @@ function Home() {
             efficient rendering strategies to deliver good user experiences.
           </p>
           <div className="flex justify-around w-[50%] max-md:w-[80%]">
-            <button className="px-5 py-3 border-indigo-700 border-2 bg-gradient-to-r from-indigo-700 to-violet-700 hover:opacity-70 hover:-translate-y-1 rounded-md duration-300 cursor-pointer">
+            <button className="max-sm:text-[12px] px-5 py-3 border-indigo-700 border-2 bg-gradient-to-r from-indigo-700 to-violet-700 hover:opacity-70 hover:-translate-y-1 rounded-md duration-300 cursor-pointer">
               View Project
             </button>
-            <Lottie animationData={dots} />
-            <button className="px-5 py-3 border-indigo-700 border-2 hover:opacity-70 hover:-translate-y-1 duration-300 rounded-md cursor-pointer">
+            <Lottie animationData={dots} className="max-sm:w-[20%]" />
+            <button className="max-sm:text-[12px] px-5 py-3 border-indigo-700 border-2 hover:opacity-70 hover:-translate-y-1 duration-300 rounded-md cursor-pointer">
               Contact Me
             </button>
           </div>
         </div>
         <div className="w-[18%]">
           <img
-            src={a}
+            src="../../src/assets/images/a.png"
             className="border-1 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
             alt=""
           />
