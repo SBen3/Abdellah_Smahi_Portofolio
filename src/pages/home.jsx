@@ -1,8 +1,8 @@
 import React from "react";
 import RevealScroll from "../components/revealScroll";
 import Lottie from "lottie-react";
-import dots from "../dots.json";
-import bg from "../wave.json"
+import dots from "./../assets/json/dots.json";
+import bg from "./../assets/json/wave.json";
 
 function Home() {
   return (
@@ -36,7 +36,7 @@ function Home() {
         </div>
         <div className="w-[18%]">
           <img
-            src="src/assets/a.png"
+            src="src/assets/images/a.png"
             className="border-1 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
             alt=""
           />

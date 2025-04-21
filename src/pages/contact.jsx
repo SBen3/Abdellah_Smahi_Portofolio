@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import RevealScroll from "../components/revealScroll";
 import Lottie from "lottie-react";
-import contactUs from "../contactUs2.json";
+import contactUs from "./../assets/json/contactUs2.json";
 
 function Contact() {
   const [form, setForm] = useState({
