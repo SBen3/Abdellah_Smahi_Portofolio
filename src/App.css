@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@layer utilities {
+    .line{
+        animation: lineAnimate 1s ease-in-out infinite;
+    }
+    @keyframes lineAnimate {
+        0%{
+            transform: translateX(-200%);
+        }
+        100%{
+            transform: translateX(200%);
+        }
+    }
+    .rotate{
+        animation : rotateAnimate 1.5s ease-in-out infinite ;
+    }
+    @keyframes rotateAnimate {
+        0%{
+            transform: rotate(0);
+        }
+        25%{
+            transform: rotate(90deg);
+        }
+        50%{
+            transform: rotate(180deg);
+        }
+        75%{
+            transform: rotate(270deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+}
