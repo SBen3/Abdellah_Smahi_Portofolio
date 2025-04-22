@@ -3,7 +3,7 @@ import RevealScroll from "../components/revealScroll";
 import Lottie from "lottie-react";
 import dots from "./../assets/json/dots.json";
 import bg from "./../assets/json/wave.json";
-
+import profile from "../../src/assets/profile.png"
 function Home() {
   return (
     <RevealScroll>
@@ -36,7 +36,7 @@ function Home() {
         </div>
         <div className="w-[18%]">
           <img
-            src="../../src/assets/profile.png"
+            src={profile}
             className="border-1 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
             alt=""
           />

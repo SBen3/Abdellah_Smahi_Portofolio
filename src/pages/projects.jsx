@@ -1,6 +1,8 @@
 import React from "react";
 import { MoveRight } from "lucide-react";
 import RevealScroll from "../components/revealScroll";
+import flower from "../../src/assets/flower.jpg";
+import admin from "../../src/assets/admin.png";
 function Projects() {
   return (
     <RevealScroll>
@@ -28,8 +30,14 @@ function Projects() {
                 <div className="flex self-center w-[300px] h-[180px] text-center rounded-md">
                   <img
                     className="rounded-md hover:scale-105 duration-300 cursor-pointer"
-                    src="../../src/assets/flower.jpg"
+                    src={flower}
                     alt=""
+                    onClick={() => {
+                      window.open(
+                        "https://flower-two-gray.vercel.app/",
+                        "_blank"
+                      );
+                    }}
                   />
                 </div>
               </div>
@@ -45,7 +53,15 @@ function Projects() {
                     JavaScript
                   </li>
                 </ul>
-                <button className="flex self-center text-indigo-800 hover:text-indigo-600 cursor-pointer">
+                <button
+                  className="flex self-center text-indigo-800 hover:text-indigo-600 cursor-pointer"
+                  onClick={() => {
+                    window.open(
+                      "https://flower-two-gray.vercel.app/",
+                      "_blank"
+                    );
+                  }}
+                >
                   <p className="hover:mr-2 duration-300">View Project</p>{" "}
                   <MoveRight className="ml-2 mt-0.5" />
                 </button>
@@ -68,6 +84,12 @@ function Projects() {
                     className="rounded-md w-[100%] h-[100%] hover:scale-105 duration-300 cursor-pointer"
                     src="https://300mind.studio/blog/wp-content/uploads/2023/07/2D-Game-Art.webp"
                     alt=""
+                    onClick={() => {
+                      window.open(
+                        "https://dinosaur-game-alpha.vercel.app/",
+                        "_blank"
+                      );
+                    }}
                   />
                 </div>
               </div>
@@ -83,7 +105,15 @@ function Projects() {
                     JavaScript
                   </li>
                 </ul>
-                <button className="flex self-center text-indigo-800 hover:text-indigo-600 cursor-pointer">
+                <button
+                  className="flex self-center text-indigo-800 hover:text-indigo-600 cursor-pointer"
+                  onClick={() => {
+                    window.open(
+                      "https://dinosaur-game-alpha.vercel.app/",
+                      "_blank"
+                    );
+                  }}
+                >
                   <p className="hover:mr-2 duration-300">View Project</p>{" "}
                   <MoveRight className="ml-2 mt-0.5" />
                 </button>
@@ -103,8 +133,14 @@ function Projects() {
                 <div className="flex self-center text-center rounded-md w-[300px] h-[180px]">
                   <img
                     className="rounded-md w-[100%] h-[100%] hover:scale-105 duration-300 cursor-pointer"
-                    src= "../../src/assets/admin.png"
+                    src={admin}
                     alt=""
+                    onClick={() => {
+                      window.open(
+                        "https://admin-dashbord-three.vercel.app/",
+                        "_blank"
+                      );
+                    }}
                   />
                 </div>
               </div>
@@ -120,7 +156,15 @@ function Projects() {
                     Framer Motion
                   </li>
                 </ul>
-                <button className="flex self-center text-indigo-800 hover:text-indigo-600 cursor-pointer">
+                <button
+                  className="flex self-center text-indigo-800 hover:text-indigo-600 cursor-pointer"
+                  onClick={() => {
+                    window.open(
+                      "https://admin-dashbord-three.vercel.app/",
+                      "_blank"
+                    );
+                  }}
+                >
                   <p className="hover:mr-2 duration-300">View Project</p>{" "}
                   <MoveRight className="ml-2 mt-0.5" />
                 </button>
