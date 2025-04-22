@@ -12,7 +12,7 @@ function Home() {
         </div>
       <section
         id="home"
-        className="w-full min-h-screen flex items-center max-md:flex-col-reverse pt-25"
+        className="w-full min-h-screen flex justify-center items-center max-md:flex-col-reverse pt-25"
       >
         <div className="w-[70%] max-md:w-[100%] flex flex-col items-center gap-8 z-10">
           <h1 className="w-fit h-fit text-center text-5xl max-md:text-4xl tracking-wide font-bold p-2 bg-gradient-to-r from-slate-500 to-violet-600 text-transparent bg-clip-text cursor-default">
