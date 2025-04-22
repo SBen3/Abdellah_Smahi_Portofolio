@@ -37,7 +37,7 @@ function Home() {
         <div className="w-[18%]">
           <img
             src={profile}
-            className="border-1 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
+            className="border-1 border-gray-800 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
             alt=""
           />
         </div>
