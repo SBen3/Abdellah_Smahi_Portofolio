@@ -3,6 +3,7 @@ import { MoveRight } from "lucide-react";
 import RevealScroll from "../components/revealScroll";
 import flower from "../../src/assets/flower.jpg";
 import admin from "../../src/assets/admin.png";
+import game from "../../src/assets/game.jpg";
 function Projects() {
   return (
     <RevealScroll>
@@ -16,20 +17,18 @@ function Projects() {
         <ul className="w-[50%] max-md:w-[90%] grid grid-cols-1 gap-10">
           <li className="flex flex-col gap-5 py-10 border-1 border-slate-800 rounded-md duration-300">
             <p className="text-center flex justify-center font-bold ">
-              Flower Responsive Website
+              Flower Shop
             </p>
             <div className="flex flex-col gap-7">
               <div className="flex flex-col px-10 gap-7">
-                <p className="text-sm text-gray-400 text-center">
+                <p className="text-sm text-gray-400 text-center leading-7 ">
                   This project showcases a responsive website designed to adapt
-                  seamlessly to various screen sizes and devices, providing an
-                  optimal viewing experience on desktops, tablets, and mobile
-                  phones the layout and content dynamically adjust to ensure
-                  usability and visual appeal across all platforms.
+                  seamlessly to various screen sizes and devices, making it easy
+                  for customers to browse our flower shop from any device.
                 </p>
-                <div className="flex self-center w-[300px] h-[180px] text-center rounded-md">
+                <div className="flex self-center w-[300px] h-[180px] text-center rounded-md hover:scale-105 duration-300 overflow-hidden">
                   <img
-                    className="rounded-md hover:scale-105 duration-300 cursor-pointer"
+                    className="m-auto rounded-md cursor-pointer"
                     src={flower}
                     alt=""
                     onClick={() => {
@@ -74,15 +73,15 @@ function Projects() {
             </p>
             <div className="flex flex-col gap-7">
               <div className="flex flex-col px-10 gap-7">
-                <p className="text-sm text-gray-400 text-center">
+                <p className="text-sm text-gray-400 text-center leading-7 ">
                   Enjoy a 2D game experience with a fun visual design, developed
                   using Object Oriented Programming . This project showcases my
                   skills in creating a cohesive and fun gaming experience.
                 </p>
-                <div className="flex self-center text-center rounded-md w-[300px] h-[180px]">
+                <div className="flex self-center text-center rounded-md w-[300px] h-[180px] overflow-hidden">
                   <img
-                    className="rounded-md w-[100%] h-[100%] hover:scale-105 duration-300 cursor-pointer"
-                    src="https://300mind.studio/blog/wp-content/uploads/2023/07/2D-Game-Art.webp"
+                    className="rounded-md w-[100%] h-[120%] hover:scale-105 duration-300 cursor-pointer"
+                    src={game}
                     alt=""
                     onClick={() => {
                       window.open(
@@ -126,7 +125,7 @@ function Projects() {
             </p>
             <div className="flex flex-col gap-7">
               <div className="flex flex-col px-10 gap-7">
-                <p className="text-sm text-gray-400 text-center">
+                <p className="text-sm text-gray-400 text-center leading-7 ">
                   A Modern Admin Dashboard. The user interface was built for a
                   consistent and responsive experience.
                 </p>
@@ -178,3 +177,4 @@ function Projects() {
 }
 
 export default Projects;
+

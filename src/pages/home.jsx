@@ -12,13 +12,13 @@ function Home() {
         </div>
       <section
         id="home"
-        className="w-full min-h-screen flex max-md:flex-col-reverse py-20 md:py-50 px-5 md:px-15  gap-15"
+        className="w-full min-h-screen flex max-md:flex-col-reverse py-20 md:py-40 px-5 md:px-15  gap-15"
       >
         <div className="flex flex-col gap-5 z-10">
           <h1 className="flex self-center w-fit h-fit text-center text-5xl max-md:text-4xl tracking-wide font-bold p-2 bg-gradient-to-r from-slate-500 to-violet-600 text-transparent bg-clip-text cursor-default">
             Hey , I'm Abdellah Smahi
           </h1>
-          <p className="text-center text-[16px] text-gray-400 leading-10 cursor-default">
+          <p className="text-center text-[16px] text-gray-400 leading-14 cursor-default">
             I'm a frontend developer with a fair expertise in the React js
             framework . I build scalable and interactive single-page
             applications, leveraging modern JavaScript and best practices . and
@@ -34,10 +34,10 @@ function Home() {
             </button>
           </div>
         </div>
-        <div>
+        <div className="">
           <img
             src={profile}
-            className="max-md:w-[60%] mx-auto border-1 border-gray-800 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
+            className="-rotate-2 max-md:w-[60%] mx-auto border-1 border-gray-800 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
             alt=""
           />
         </div>
