@@ -3,7 +3,7 @@ import RevealScroll from "../components/revealScroll";
 import Lottie from "lottie-react";
 import dots from "./../assets/json/dots.json";
 import bg from "./../assets/json/wave.json";
-import profile from "../../src/assets/profile.png"
+import profile from "../../src/assets/profile.jpg"
 function Home() {
   return (
     <RevealScroll>
@@ -34,10 +34,10 @@ function Home() {
             </button>
           </div>
         </div>
-        <div className="">
+        <div className="flex items-center self-center w-[70%]">
           <img
             src={profile}
-            className="-rotate-2 max-md:w-[60%] mx-auto border-1 border-gray-800 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
+            className="w-[65%] mx-auto border-1 border-gray-800 hover:shadow-indigo-900 hover:shadow-2xl duration-300 hover:-translate-y-2 opacity-75 rounded-full cursor-pointer"
             alt=""
           />
         </div>
