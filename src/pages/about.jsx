@@ -51,6 +51,9 @@ function About() {
                 JavaScript
               </li>
               <li className="text-center bg-slate-950 text-indigo-600 rounded-md py-1 px-3 hover:opacity-80 hover:-translate-y-1 duration-300 cursor-pointer">
+                TypeScript
+              </li>
+              <li className="text-center bg-slate-950 text-indigo-600 rounded-md py-1 px-3 hover:opacity-80 hover:-translate-y-1 duration-300 cursor-pointer">
                 Tailwind Css
               </li>
               <li className="text-center bg-slate-950 text-indigo-600 rounded-md py-1 px-3 hover:opacity-80 hover:-translate-y-1 duration-300 cursor-pointer">
